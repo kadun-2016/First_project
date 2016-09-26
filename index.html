@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="PHP, язык, программирование, почему">
+    <meta name="description" content="Эта статья о том, почему Я выбрал PHP">
+    <title>Personal Web Page - Exercise</title>
+</head>
+
+    <!--Test comment -->
+
+    <h1>Почему Я выбрал PHP?</h1>
+    <p>
+        <!--это задание по вставке картинки с Интернета и переходу по гипер-ссылке-->
+
+        <a href="https://www.google.com.ua/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=Earth" title="Найти в Google" target="_blank">
+        <img src="http://meganauka.com/uploads/posts/2011-03/1301506544_4848.jpg" alt="Earth" width="50" align="left"></a>
+
+        <!--<b><i><u> - теги для форматирования текста (жирный, курсив, подчёркнутый)-->
+
+        Я <b><i>долго</i></b> выбирал чем заняться в ИТ. </br>
+        Хотя работаю в этой сфере давно и есть опыт во всех направлениях, </br>
+        решил остановиться на чём-то одном и более <u>углублённо</u>.
+    </p>
+    <p>
+        Долго <b><i>раздумывая</i></b> выбор сделал в пользу программирования, а именно <u>PHP</u> )
+    </p>
+    <p>
+        Еще <i><b>Я</b></i> очень долго думал изучение какого языка программирования именно выбрать) </br>
+        С института припоминался Pascal, Assembler и немного <u>С</u>.
+    </p>
+    <p>
+        Но <b><i>проанализировав</i></b> сколько людей используют Интренет </br>
+        и сколько тратят на это времени решил познавать именно <u>WEB-разработку</u>.
+    </p>
+
+    <!--<pre> - парный тег для отформатированного текста (чтобы он не менялся при отображении в браузере)-->
+
+    <pre>
+        -
+        |
+        |
+        |
+    </pre>
+
+    <!--это задание по спец-тегам-->
+
+    &lt;html&gt; </br>
+    &lt;/html&gt; </br>
+    &lt;body&gt; </br>
+    &lt;/body&gt; </br>
+    <p>
+    &lt;img&gt; - tag for images
+    </p>
+
+    <p>
+    <!-- задание по списку-->
+        <ol type="1">
+        <li>Европа</li>
+            <ul>
+                <li>Украина</li>
+                <li>Польша</li>
+                <li>Германия</li>
+            </ul>
+        <li>Африка</li>
+            <ul>
+                <li>Нигерия</li>
+                <li>Египет</li>
+                <li>Кения</li>
+            </ul>
+        <li>Азия</li>
+            <ul>
+                <li>Китай</li>
+                <li>Япония</li>
+                <li>Непал</li>
+            </ul>
+        </ol>
+    </p>
+
+    <p>
+        <!--задание по созданию таблицы-->
+        <table border="2">
+            <tr>
+                <td colspan="2" align="center"><b>Some continents and area</b></td>
+            </tr>
+            <tr>
+                <td>Europe</td>
+                <td>10,180,000 square kilometres</td>
+            </tr>
+            <tr>
+                <td>Asia</td>
+                <td>44,579,000 square kilometers</td>
+            </tr>
+            <tr>
+                <td>Africa</td>
+                <td>30,370,000 square kilometers</td>
+            </tr>
+        </table>
+    </p>
+
+    <p>
+        <!--задание по созданию формы-->
+        <h2>Registration</h2>
+        <form enctype="multipart/form-data" method="post">
+
+            <table width="250" height="200" >
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" name="name" /></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td><input type="radio" name="gender" value="male"/>Male
+                        <input type="radio" name="gender" value="female"/>Female</td>
+                </tr>
+                <tr>
+                    <td>Country :</td>
+                    <td><select name="country">
+                        <option selected value="0">Select your country</option>
+                        <option value="ua">Ukraine</option>
+                        <option value="pl">Poland</option>
+                        <option value="md">Moldova</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Application For :</td>
+                <td><input type="checkbox" name="forum"/>forum
+                    <input type="checkbox" name="chat"/>chat
+                    <input type="checkbox" name="games"/>games</td>
+                </tr>
+                <tr>
+                    <td>email :</td>
+                    <td><input type="email" name="email"/></td>
+                </tr>
+                <tr>
+                    <td>Phone :</td>
+                    <td><input type="number" name="phone" /></td>
+                </tr>
+                <tr> <!--не знаю как рястянуть Massege & Submit по ширине таблицы-->
+                    <td colspan="2"><textarea>Message</textarea> </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Register!"/></td>
+
+                </tr>
+            </table>
+
+            <!--задание по скрытой передаче данных и загрузке вложений-->
+            <input type="file" name="cv">
+            <input type="submit" value="upload CV">
+            <input type="hidden" name="date" value="21.09.2016">
+        </form>
+    </p>
+
+</body>
+</html>
